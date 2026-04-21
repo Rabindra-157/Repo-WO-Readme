@@ -1,0 +1,11 @@
+writing code and pushing those into github
+also creating readme file from the VsCode  -- echo "# Repo-WO-Readme" >> README.md
+initialize the git - git init
+checking the status of the files in the working directory   -- git status  <red means untracked, Green means tracked>
+add the files showing in red from the above line to make it track  -- git add * <it will add all untrack file to track>
+    git add README.md  <it will track the readme.md file only to track>
+now move the track file from local to stage --  git commit -m "first commit"
+Now make the commit from master to main branch   --  git branch -M main
+It creates a shortcut name (origin) for a specific web address (the URL), so you don't have to type the full link every time you push or pull code  --  git remote add origin https://github.com/Rabindra-157/Repo-WO-Readme.git
+We can use the nickname to send your code up to GitHub. Usually, the very next step involves "pushing" your code:  --  git push -u origin main  
+    <By using -u (upstream), you're telling Git to remember that your local branch and the origin branch are now best friends, allowing you to just type git push in the future>
